@@ -1,0 +1,5559 @@
+{
+    "key": "group_67a8bba16b44a",
+    "title": "Options: Room amentities",
+    "fields": [
+        {
+            "key": "field_67a8bba16d44c",
+            "label": "Popular amenities",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8bba16d44e",
+            "label": "Wi-Fi in room",
+            "name": "rt_amenity_wifi_in_room",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d451",
+            "label": "Refrigerator",
+            "name": "rt_amenity_refrigerator",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d454",
+            "label": "Heating",
+            "name": "rt_amenity_heating",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d456",
+            "label": "Balcony",
+            "name": "rt_amenity_balcony",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d459",
+            "label": "Terrace",
+            "name": "rt_amenity_terrace",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d45b",
+            "label": "Toiletries amenities",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8bba16d45e",
+            "label": "Toothbrushes",
+            "name": "rt_amenity_toothbrushes",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d460",
+            "label": "Toothpaste",
+            "name": "rt_amenity_toothpaste",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d463",
+            "label": "Body wash",
+            "name": "rt_amenity_body_wash",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d465",
+            "label": "Shampoo",
+            "name": "rt_amenity_shampoo",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d468",
+            "label": "Conditioner",
+            "name": "rt_amenity_conditioner",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d46a",
+            "label": "Soap",
+            "name": "rt_amenity_soap",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d46d",
+            "label": "Shower cap",
+            "name": "rt_amenity_shower_cap",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d46f",
+            "label": "Comb",
+            "name": "rt_amenity_comb",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d472",
+            "label": "Razor",
+            "name": "rt_amenity_razor",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d477",
+            "label": "Room amenities",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8bba16d47d",
+            "label": "Air conditioning",
+            "name": "rt_amenity_air_conditioning",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d480",
+            "label": "Underfloor heating",
+            "name": "rt_amenity_underfloor_heating",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d483",
+            "label": "Electric fan",
+            "name": "rt_amenity_electric_fan",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d485",
+            "label": "Rug",
+            "name": "rt_amenity_rug",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d488",
+            "label": "Extra-long bed (over 2m)",
+            "name": "rt_amenity_extra_long_bed",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d48a",
+            "label": "Oxygen supply facilities",
+            "name": "rt_amenity_oxygen_supply_facilities",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d48d",
+            "label": "Air purifier",
+            "name": "rt_amenity_air_purifier",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d490",
+            "label": "Blackout curtains",
+            "name": "rt_amenity_blackout_curtains",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d492",
+            "label": "Automatic curtains",
+            "name": "rt_amenity_automatic_curtains",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d495",
+            "label": "Curtains",
+            "name": "rt_amenity_curtains",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d497",
+            "label": "Mosquito net",
+            "name": "rt_amenity_mosquito_net",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d49a",
+            "label": "Bedding: Duvet",
+            "name": "rt_amenity_bedding_duvet",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d49c",
+            "label": "Bedding: Blanket or quilt",
+            "name": "rt_amenity_bedding_blanket_or_quilt",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d49f",
+            "label": "Electric blanket",
+            "name": "rt_amenity_electric_blanket",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4a2",
+            "label": "Spare bedding",
+            "name": "rt_amenity_spare_bedding",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4a4",
+            "label": "Room layout and furnishings",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8bba16d4a7",
+            "label": "Sofa",
+            "name": "rt_amenity_sofa",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4a9",
+            "label": "Wardrobe",
+            "name": "rt_amenity_sofa_copy",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4ac",
+            "label": "Desk",
+            "name": "rt_amenity_desk",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4ae",
+            "label": "Coffee table",
+            "name": "rt_amenity_coffee_table",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4b0",
+            "label": "Chairs",
+            "name": "rt_amenity_chairs",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4b3",
+            "label": "Dining table",
+            "name": "rt_amenity_dining_table",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4b5",
+            "label": "Fireplace",
+            "name": "rt_amenity_fireplace",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4b8",
+            "label": "Dining area",
+            "name": "rt_amenity_dining_area",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4ba",
+            "label": "Private entrance",
+            "name": "rt_amenity_private_entrance",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4bd",
+            "label": "Connecting rooms",
+            "name": "rt_amenity_connecting_rooms",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4bf",
+            "label": "Wall hangings",
+            "name": "rt_amenity_wall_hangings",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4c2",
+            "label": "Private hot springs",
+            "name": "rt_amenity_private_hot_springs",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4c4",
+            "label": "Private pool",
+            "name": "rt_amenity_private_pool",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bba16d4c7",
+            "label": "Garden \/ yard",
+            "name": "rt_amenity_garden_yard",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bd455e344",
+            "label": "General amenities",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8bd4f5e345",
+            "label": "Butler service",
+            "name": "rt_amenity_butler_service",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bd5f5e346",
+            "label": "Safe in room",
+            "name": "rt_amenity_safe_in_room",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bd6e5e347",
+            "label": "Digital scales",
+            "name": "rt_amenity_digital_scales",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bd7f5e348",
+            "label": "Sewing kit",
+            "name": "rt_amenity_sewing_kit",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bd8c5e349",
+            "label": "Turndown service",
+            "name": "rt_amenity_turndown_service",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bd985e34a",
+            "label": "Clothes hangers",
+            "name": "rt_amenity_clothes_hangers",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bda95e34b",
+            "label": "Umbrella",
+            "name": "rt_amenity_umbrella",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bdb45e34c",
+            "label": "Welcome gift",
+            "name": "rt_amenity_welcome_gift",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bdc15e34d",
+            "label": "Card table",
+            "name": "rt_amenity_card_table",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bdcc5e34e",
+            "label": "Board games",
+            "name": "rt_amenity_board_games",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bdd85e34f",
+            "label": "Multi-standard power outlet",
+            "name": "rt_amenity_multi_standard_power_outlet",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bdf15e350",
+            "label": "Single-standard power outlet",
+            "name": "rt_amenity_single_standard_power_outlet",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8be035e351",
+            "label": "110V power outlet",
+            "name": "rt_amenity_110V_power_outlet",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8be115e352",
+            "label": "220V power outlet",
+            "name": "rt_amenity_220V_power_outlet",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bf1ea9b99",
+            "label": "Camping",
+            "name": "camping",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_67a8bf2fa9b9a",
+                    "label": "Camping",
+                    "name": "rt_amenity_camping",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8bf3da9b9b",
+                    "label": "Tent",
+                    "name": "rt_amenity_tent",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8bf48a9b9c",
+                    "label": "Sun shelter",
+                    "name": "rt_amenity_sun_shelter",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8bf55a9b9d",
+                    "label": "Airbed",
+                    "name": "rt_amenity_airbed",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8bf61a9b9e",
+                    "label": "Camping lantern",
+                    "name": "rt_amenity_camping_lantern",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8bf6da9b9f",
+                    "label": "Camping tables and chairs",
+                    "name": "rt_amenity_camping_tables_and_chairs",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8bf7ea9ba0",
+                    "label": "BBQ grill",
+                    "name": "rt_amenity_bbq_grill",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8bf89a9ba1",
+                    "label": "Portable stove",
+                    "name": "rt_amenity_portable_stove",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ],
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_67a8bfb2a9ba2",
+            "label": "Executive lounge benefits",
+            "name": "rt_amenity_executive_lounge_benefits",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8bfc3a9ba3",
+            "label": "Qibla compass",
+            "name": "rt_amenity_qibla_compass",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c07a05f3b",
+            "label": "Internet and communications",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8c08a05f3c",
+            "label": "Wired Internet in room",
+            "name": "rt_amenity_wired_internet_in_room",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c0a405f3d",
+            "label": "Smartphone",
+            "name": "rt_amenity_smartphone",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c0af05f3e",
+            "label": "Telephone",
+            "name": "rt_amenity_telephone",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "all_rooms",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c0c005f3f",
+            "label": "International calls",
+            "name": "rt_amenity_international_calls",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c13d50aa0",
+            "label": "Media and technology",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8c14650aa1",
+            "label": "TV",
+            "name": "rt_amenity_tv",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c15550aa2",
+            "label": "Smart room controls",
+            "name": "rt_amenity_smart_room_controls",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c16950aa3",
+            "label": "Audio equipment",
+            "name": "rt_amenity_smart_audio_equipment",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c17450aa4",
+            "label": "Computer",
+            "name": "rt_amenity_smart_computer",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c17f50aa5",
+            "label": "Tablet",
+            "name": "rt_amenity_smart_tablet",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c18850aa6",
+            "label": "Games console",
+            "name": "rt_amenity_smart_games_console",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c1c650aa7",
+            "label": "Smart door lock",
+            "name": "rt_amenity_smart_door_lock",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8c1d550aa8",
+            "label": "Projector",
+            "name": "rt_amenity_projector",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d1fc78863",
+            "label": "Food and drink",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8d29a78864",
+            "label": "Instant food",
+            "name": "rt_amenity_instant_food",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d2c078865",
+            "label": "Snacks",
+            "name": "rt_amenity_snacks",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d2cd78866",
+            "label": "Fruit",
+            "name": "rt_amenity_fruit",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d2d978867",
+            "label": "Coffee machine",
+            "name": "rt_amenity_coffee_machine",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d2e578868",
+            "label": "Coffee maker\/teapot",
+            "name": "rt_amenity_coffee_maker_teapot",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d2f578869",
+            "label": "Tea bags",
+            "name": "rt_amenity_tea_bags",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d3037886a",
+            "label": "Soft drinks",
+            "name": "rt_amenity_soft_drinks",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d30f7886b",
+            "label": "Alcoholic beverages",
+            "name": "rt_amenity_alcoholic_beverages",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d3217886c",
+            "label": "Bottled water",
+            "name": "rt_amenity_bottled_water",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d3387886d",
+            "label": "Electric kettle",
+            "name": "rt_amenity_electric_kettle",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d3487886e",
+            "label": "Minibar",
+            "name": "rt_amenity_minibar",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d36ffc5b7",
+            "label": "Bathroom",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8d383fc5b8",
+            "label": "Bathroom",
+            "name": "rt_amenity_bathroom",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d38bfc5b9",
+            "label": "Hot water",
+            "name": "rt_amenity_hot_water",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d3a8fc5ba",
+            "label": "Toilet",
+            "name": "rt_amenity_toilet",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d3b1fc5bb",
+            "label": "Smart toilet",
+            "name": "rt_amenity_smart_toilet",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d3bdfc5bc",
+            "label": "TV in bathroom",
+            "name": "rt_amenity_tv_in_bathroom",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d3cdfc5bd",
+            "label": "Hair dryer",
+            "name": "rt_amenity_hair_dryer",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d3e9fc5be",
+            "label": "Vanity mirror in bathroom",
+            "name": "rt_amenity_vanity_mirror_in_bathroom",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d408fc5bf",
+            "label": "Bathrobes",
+            "name": "rt_amenity_bathrobes",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d414fc5c0",
+            "label": "Towels",
+            "name": "rt_amenity_towels",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d424fc5c1",
+            "label": "Bath towels",
+            "name": "rt_amenity_bath_towels",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d432fc5c2",
+            "label": "Slippers",
+            "name": "rt_amenity_slippers",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d43cfc5c3",
+            "label": "Shattaf",
+            "name": "rt_amenity_shattaf",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d4608b7bd",
+            "label": "Views",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8d47c8b7be",
+            "label": "Ocean view",
+            "name": "rt_amenity_ocean_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d48d8b7bf",
+            "label": "River view",
+            "name": "rt_amenity_river_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d4998b7c0",
+            "label": "Landmark view",
+            "name": "rt_amenity_landmark_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d4a68b7c1",
+            "label": "Mountain view",
+            "name": "rt_amenity_mountain_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d4b98b7c2",
+            "label": "Pool view",
+            "name": "rt_amenity_pool_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d4cc8b7c3",
+            "label": "Garden view",
+            "name": "rt_amenity_garden_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d4d98b7c4",
+            "label": "Courtyard view",
+            "name": "rt_amenity_courtyard_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d4e88b7c5",
+            "label": "City view",
+            "name": "rt_amenity_city_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d4f68b7c6",
+            "label": "Lake view",
+            "name": "rt_amenity_lake_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d5118b7c7",
+            "label": "Golf course view",
+            "name": "rt_amenity_golf_course_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d5208b7c8",
+            "label": "Park view",
+            "name": "rt_amenity_park_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d52d8b7c9",
+            "label": "Bay view",
+            "name": "rt_amenity_bay_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d53d8b7ca",
+            "label": "Harbor view",
+            "name": "rt_amenity_harbor_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d54c8b7cb",
+            "label": "Desert view",
+            "name": "rt_amenity_desert_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d5588b7cc",
+            "label": "Valley view",
+            "name": "rt_amenity_valley_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d5658b7cd",
+            "label": "Canyon view",
+            "name": "rt_amenity_canyon_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d56f8b7ce",
+            "label": "Volcano view",
+            "name": "rt_amenity_volcano_view",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d5b13f674",
+            "label": "Cleaning services",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8d5bd3f675",
+            "label": "Daily housekeeping",
+            "name": "rt_amenity_daily_housekeeping",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d5d43f676",
+            "label": "Cleaning tools",
+            "name": "rt_amenity_cleaning_tools",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d5e13f677",
+            "label": "Washing machine",
+            "name": "rt_amenity_washing_machine",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d5fa3f678",
+            "label": "Laundry detergent",
+            "name": "rt_amenity_laundry_detergent",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d6073f679",
+            "label": "Iron and ironing board",
+            "name": "rt_amenity_iron_and_ironing_board",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d6183f67a",
+            "label": "Trouser press",
+            "name": "rt_amenity_trouser_press",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d6243f67b",
+            "label": "Clothes dryer",
+            "name": "rt_amenity_clothes_dryer",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d648e9b9b",
+            "label": "Accessibility",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8d658e9b9c",
+            "label": "Stair-free main entrance",
+            "name": "rt_amenity_stair_free_main_entrance",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d678e9b9d",
+            "label": "Accessible shower",
+            "name": "rt_amenity_accessible_shower",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d689e9b9e",
+            "label": "Bathtub with grab bars",
+            "name": "rt_amenity_bathtub_with_grab_bars",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d698e9b9f",
+            "label": "Toilet with handles",
+            "name": "rt_amenity_toilet_with_handles",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d6a7e9ba0",
+            "label": "Lowered sink",
+            "name": "rt_amenity_lowered_sink",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d6b4e9ba1",
+            "label": "Shower seat",
+            "name": "rt_amenity_shower_seat",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d6c0e9ba2",
+            "label": "Emergency button in bathroom",
+            "name": "rt_amenity_emergency_button_in_bathroom",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d6d9e9ba3",
+            "label": "Shower with grab bars",
+            "name": "rt_amenity_shower_with_grab_bars",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d6eae9ba4",
+            "label": "Emergency button by bed",
+            "name": "rt_amenity_emergency_button_by_bed",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d703e9ba5",
+            "label": "Closed captioning for TV",
+            "name": "rt_amenity_closed_captioning_for_tv",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d714e9ba6",
+            "label": "Braille signs",
+            "name": "rt_amenity_braille_signs",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d720e9ba7",
+            "label": "Ceiling hoist",
+            "name": "rt_amenity_ceiling_hoist",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d72de9ba8",
+            "label": "Lever door handles",
+            "name": "rt_amenity_lever_door_handles",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d73be9ba9",
+            "label": "Accessible living area",
+            "name": "rt_amenity_accessible_living_area",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d749e9baa",
+            "label": "Widened doorways",
+            "name": "rt_amenity_widened_doorways",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d756e9bab",
+            "label": "Accessible toilet",
+            "name": "rt_amenity_accessible_toilet",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d763e9bac",
+            "label": "Accessible rooms available",
+            "name": "rt_amenity_accessible_rooms_available",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d771e9bad",
+            "label": "Visual alarm device",
+            "name": "rt_amenity_visual_alarm_device",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d77fe9bae",
+            "label": "Amenities for guests who are deaf or have hearing loss",
+            "name": "rt_amenity_amenities_for_guests",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d792e9baf",
+            "label": "Vibration alarm pillow",
+            "name": "rt_amenity_vibration_alarm_pillow",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d79fe9bb0",
+            "label": "Doorbell and phone alerts",
+            "name": "rt_amenity_doorbell_and_phone_alerts",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d7b3e9bb1",
+            "label": "Phone amplifier",
+            "name": "rt_amenity_phone_amplifier",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d7ee58857",
+            "label": "Family amenities",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8d7f658858",
+            "label": "Children's toiletries",
+            "name": "rt_amenity_children_toiletries",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d80158859",
+            "label": "Children's towels",
+            "name": "rt_amenity_children_towels",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d81f5885a",
+            "label": "Children's washcloths",
+            "name": "rt_amenity_children_washcloths",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d82d5885b",
+            "label": "Children's toilet seat",
+            "name": "rt_amenity_children_toilet_seat",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d8415885c",
+            "label": "Childproofing",
+            "name": "rt_amenity_childproofing",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d84a5885d",
+            "label": "Anti-slip stool for kids",
+            "name": "rt_amenity_anti_slip_stool_for_kids",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d85d5885e",
+            "label": "Sterilizer for baby bottles and pacifiers",
+            "name": "rt_amenity_sterilizer_for_baby",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d8795885f",
+            "label": "Children's toys",
+            "name": "rt_amenity_children_toys",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d89058860",
+            "label": "Corner protectors",
+            "name": "rt_amenity_corner_protectors",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8d8a258861",
+            "label": "Other",
+            "name": "other",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_67a8d8b258862",
+                    "label": "Slide and swing set",
+                    "name": "rt_amenity_slide_and_swing_set",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d8ee58863",
+                    "label": "Bath toys",
+                    "name": "rt_amenity_bath_toys",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d8fa58864",
+                    "label": "Children's tent",
+                    "name": "rt_amenity_children_tent",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d90758865",
+                    "label": "Foldable stroller",
+                    "name": "rt_amenity_foldable_stroller",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d91458866",
+                    "label": "Bouncing ball",
+                    "name": "rt_amenity_bouncing_ball",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d91f58867",
+                    "label": "Smart robot toy",
+                    "name": "rt_amenity_smart_robot_toy",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d93d58869",
+                    "label": "Interactive learning device",
+                    "name": "rt_amenity_interactive_learning_device",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d9505886a",
+                    "label": "Magnetic darts",
+                    "name": "rt_amenity_magnetic_darts",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d95d5886b",
+                    "label": "Augmented reality toys",
+                    "name": "rt_amenity_augmented_reality_toys",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d96d5886c",
+                    "label": "Children's tableware",
+                    "name": "rt_amenity_children_tableware",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d97b5886d",
+                    "label": "Highchair",
+                    "name": "rt_amenity_highchair",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d9855886e",
+                    "label": "Baby bath",
+                    "name": "rt_amenity_baby_bath",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d9915886f",
+                    "label": "Children's slippers",
+                    "name": "rt_amenity_children_slippers",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d99e58870",
+                    "label": "Children's bathrobes",
+                    "name": "rt_amenity_children_bathrobes",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_67a8d9aa58871",
+                    "label": "Crib",
+                    "name": "rt_amenity_crib",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "all_rooms": "All rooms",
+                        "some_rooms": "Some rooms",
+                        "none": "None"
+                    },
+                    "default_value": "none",
+                    "return_format": "array",
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ],
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        },
+        {
+            "key": "field_67a8da54d78e0",
+            "label": "Gaming",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8da69d78e1",
+            "label": "Gaming mouse",
+            "name": "rt_amenity_gaming_mouse",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8da78d78e2",
+            "label": "Mechanical keyboard",
+            "name": "rt_amenity_mechanical_keyboard",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8da83d78e3",
+            "label": "Gaming chair",
+            "name": "rt_amenity_gaming_chair",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8da8fd78e4",
+            "label": "Gaming pod",
+            "name": "rt_amenity_gaming_pod",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8da9cd78e5",
+            "label": "Gaming headset",
+            "name": "rt_amenity_gaming_headset",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8daa7d78e6",
+            "label": "Gaming computer",
+            "name": "rt_amenity_gaming_computer",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8dab3d78e7",
+            "label": "Gaming GPU",
+            "name": "rt_amenity_gaming_gpu",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8dac1d78e8",
+            "label": "Gaming monitor",
+            "name": "rt_amenity_gaming_monitor",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8daccd78e9",
+            "label": "Gaming access account",
+            "name": "rt_amenity_gaming_access_account",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8dadfd78ea",
+            "label": "Kitchen",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_67a8daf3d78eb",
+            "label": "Kitchen",
+            "name": "rt_amenity_kitchen",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db00d78ec",
+            "label": "Microwave",
+            "name": "rt_amenity_microwave",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db08d78ed",
+            "label": "Toaster",
+            "name": "rt_amenity_toaster",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db11d78ee",
+            "label": "Range hood",
+            "name": "rt_amenity_range_hood",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db1ad78ef",
+            "label": "Tableware",
+            "name": "rt_amenity_tableware",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db23d78f0",
+            "label": "Kitchenware",
+            "name": "rt_amenity_kitchenware",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db2cd78f1",
+            "label": "Stove",
+            "name": "rt_amenity_stove",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db34d78f2",
+            "label": "Rice cooker",
+            "name": "rt_amenity_rice_cooker",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db40d78f3",
+            "label": "Oven",
+            "name": "rt_amenity_oven",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db4ad78f4",
+            "label": "Condiments",
+            "name": "rt_amenity_condiments",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db53d78f5",
+            "label": "Dishwasher",
+            "name": "rt_amenity_dishwasher",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_67a8db67d78f6",
+            "label": "Kitchen cleaning supplies",
+            "name": "rt_amenity_kitchen_cleaning_supplies",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "all_rooms": "All rooms",
+                "some_rooms": "Some rooms",
+                "none": "None"
+            },
+            "default_value": "none",
+            "return_format": "array",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 1,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "room-amenities"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "tooltip",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "Room amentities",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1739120000
+}

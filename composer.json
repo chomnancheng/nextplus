@@ -17,7 +17,12 @@
     }
   ],
   "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
+    "bedrock",
+    "composer",
+    "roots",
+    "wordpress",
+    "wp",
+    "wp-config"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
@@ -27,7 +32,74 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org",
-      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    },
+    {
+      "type": "composer",
+      "url": "https://connect.advancedcustomfields.com"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "chomnancheng/nextplus",
+        "version": "1.0.2",
+        "type": "wordpress-theme",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/chomnancheng/nextplus/archive/refs/tags/1.0.2.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "webdeveducation/wp-graphql-blocks-acf",
+        "version": "1.0.5",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/webdeveducation/wp-graphql-blocks-acf/archive/v1.0.5.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-graphql/wp-graphql-acf",
+        "version": "0.6.2",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/wp-graphql/wp-graphql-acf/archive/v0.6.2.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-graphql/wp-graphql-meta-query",
+        "version": "0.1.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/wp-graphql/wp-graphql-meta-query/archive/v0.1.1.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "valu-digital/wp-graphql-offset-pagination",
+        "version": "0.2.0",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/valu-digital/wp-graphql-offset-pagination/archive/v0.2.0.zip"
+        }
+      }
     }
   ],
   "require": {
@@ -40,7 +112,19 @@
     "roots/wordpress": "6.7.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.2.0",
-    "wpackagist-theme/twentytwentyfive": "^1.0"
+    "chomnancheng/nextplus": "^1.0.2",
+    "wpengine/advanced-custom-fields-pro": "*",
+    "wpackagist-plugin/svg-support": "^2.5",
+    "wpackagist-plugin/wp-graphql": "^2.0",
+    "wpackagist-plugin/wordpress-seo": "^24.4",
+    "wpackagist-plugin/add-wpgraphql-seo": "^4.23",
+    "wpackagist-plugin/vercel-deploy-hooks": "^1.4",
+    "wpackagist-plugin/wpgraphql-blocks": "^2.1",
+    "wpackagist-plugin/acf-extended": "^0.9.1",
+    "webdeveducation/wp-graphql-blocks-acf": "^1.0",
+    "wp-graphql/wp-graphql-meta-query": "^0.1.1",
+    "valu-digital/wp-graphql-offset-pagination": "^0.2.0",
+    "wp-graphql/wp-graphql-acf": "^0.6.2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
@@ -58,9 +142,15 @@
   "prefer-stable": true,
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
     },
     "wordpress-install-dir": "web/wp"
   },

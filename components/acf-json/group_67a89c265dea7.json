@@ -469,7 +469,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "room"
+                "value": "rooms"
             }
         ]
     ],
@@ -477,7 +477,7 @@
     "position": "acf_after_title",
     "style": "default",
     "label_placement": "top",
-    "instruction_placement": "tooltip",
+    "instruction_placement": "label",
     "hide_on_screen": "",
     "active": true,
     "description": "",
@@ -489,5 +489,9 @@
     "acfe_form": 0,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1739111688
+    "show_in_graphql": 1,
+    "graphql_field_name": "singleRoomInformation",
+    "map_graphql_types_from_location_rules": 0,
+    "graphql_types": "",
+    "modified": 1739891749
 }

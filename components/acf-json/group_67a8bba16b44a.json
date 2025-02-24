@@ -5535,7 +5535,7 @@
             {
                 "param": "options_page",
                 "operator": "==",
-                "value": "room-amenities"
+                "value": "acf-options-room-amenities"
             }
         ]
     ],
@@ -5543,17 +5543,14 @@
     "position": "acf_after_title",
     "style": "default",
     "label_placement": "top",
-    "instruction_placement": "tooltip",
+    "instruction_placement": "label",
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_rest": 0,
-    "acfe_display_title": "Room amentities",
-    "acfe_autosync": [
-        "json"
-    ],
-    "acfe_form": 0,
-    "acfe_meta": "",
-    "acfe_note": "",
-    "modified": 1739120000
+    "show_in_rest": 1,
+    "show_in_graphql": 1,
+    "graphql_field_name": "optionsRoomAmentities",
+    "map_graphql_types_from_location_rules": 0,
+    "graphql_types": "",
+    "modified": 1739583005
 }

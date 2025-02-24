@@ -53,7 +53,6 @@ web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
 web/app/themes/twentytwentyfive/
-web/app/themes/nextplus/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep

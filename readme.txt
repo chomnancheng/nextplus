@@ -2,6 +2,9 @@
 git remote add origin https://github.com/chomnancheng/nextplus.git
 git remote set-url origin https://github.com/chomnancheng/nextplus.git
 
+git tag v1.0.4
+git push origin v1.0.4
+
 Contributors: automattic
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 

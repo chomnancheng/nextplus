@@ -46,13 +46,6 @@ function httpsnextplus_biz_setup() {
 		*/
 	add_theme_support( 'post-thumbnails' );
 
-	// This theme uses wp_nav_menu() in one location.
-	register_nav_menus(
-		array(
-			'menu-1' => esc_html__( 'Primary', 'httpsnextplus-biz' ),
-		)
-	);
-
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.
@@ -99,6 +92,7 @@ function httpsnextplus_biz_setup() {
 			'flex-height' => true,
 		)
 	);
+	add_theme_support('custom-logo');
 }
 add_action( 'after_setup_theme', 'httpsnextplus_biz_setup' );
 
@@ -141,8 +135,6 @@ function httpsnextplus_biz_scripts() {
 	wp_enqueue_style( 'httpsnextplus-biz-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'httpsnextplus-biz-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'httpsnextplus-biz-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -170,9 +162,34 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /**
+ * Customizer Nav Menus.
+ */
+require get_template_directory() . '/inc/custom_nav_menus.php';
+
+/**
+ * Customizer Sync ACF.
+ */
+require get_template_directory() . '/inc/custom_sync_acf.php';
+
+/**
+ * Customizer Options.
+ */
+require get_template_directory() . '/inc/custom_options.php';
+
+/**
+ * Customizer Blocks.
+ */
+require get_template_directory() . '/inc/custom_blocks.php';
+
+/**
  * Customizer ACF.
  */
 require get_template_directory() . '/inc/custom_acf.php';
+
+/**
+ * Customizer ACF.
+ */
+require get_template_directory() . '/inc/blocks/import.php';
 
 /**
  * Load Jetpack compatibility file.
@@ -180,3 +197,9 @@ require get_template_directory() . '/inc/custom_acf.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+
+function remove_default_color_palette() {
+    remove_theme_support('editor-color-palette');
+}
+add_action('after_setup_theme', 'remove_default_color_palette');

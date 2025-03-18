@@ -177,11 +177,6 @@ require get_template_directory() . '/inc/custom_sync_acf.php';
 require get_template_directory() . '/inc/custom_options.php';
 
 /**
- * Customizer Blocks.
- */
-require get_template_directory() . '/inc/custom_blocks.php';
-
-/**
  * Customizer ACF.
  */
 require get_template_directory() . '/inc/custom_acf.php';
